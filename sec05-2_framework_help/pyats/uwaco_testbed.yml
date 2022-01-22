@@ -1,0 +1,19 @@
+---
+testbed:
+  name: Underwater_Corporation_Testbed
+
+devices:
+  mgmt-sw05:
+      type: 'switch'
+      os: 'iosxe'
+      alias: 'Rack Management Switch'
+      credentials:
+        default:
+          username: cisco
+          password: cisco
+        enable:
+          password: cisco
+      connections:
+          cli:
+              protocol: telnet
+              ip: 10.1.10.102

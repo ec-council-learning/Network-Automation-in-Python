@@ -1,0 +1,18 @@
+# Vlan Report #
+***Change Date {{ data_dict['timestamp'] }}***
+---
+## Network Topology ##
+![Current Topology](network_topology.png)
+
+## Vlan Configuration ##
+{% for sw, vlan_data in data_dict['devices'].items() %}
+### {{ sw }} ###
+| {{ vlan_data['vlan_header'][0] }} | {{ vlan_data['vlan_header'][1] }}|{{ vlan_data['vlan_header'][2] }} |
+|--------------------------|--------------------------|--------------------------|
+{% for line in vlan_data['vlan_cfg'] -%}
+| {{ line[0] }} | {{ line[1] }} | {{ line[2] }} |
+{% endfor %}
+
+---
+{% endfor %}
+

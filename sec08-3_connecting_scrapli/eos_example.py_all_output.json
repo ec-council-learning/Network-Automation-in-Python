@@ -1,0 +1,66 @@
+[
+    {
+        "device": "10.1.10.54",
+        "show version": [
+            {
+                "model": "vEOS-lab",
+                "hw_version": "",
+                "serial_number": "B1FBFD4F22277771A2B9B68DCDD36085",
+                "sys_mac": "0800.2746.b81f",
+                "image": "4.27.0F",
+                "total_memory": "2006592",
+                "free_memory": "916348"
+            }
+        ],
+        "show inventory": [
+            {
+                "port": "",
+                "name": "SwitchedBootstrap",
+                "sn": "",
+                "descr": "2",
+                "vid": ""
+            }
+        ],
+        "show ip interface brief": [
+            {
+                "interface": "Management1",
+                "ip": "10.1.10.54/24",
+                "status": "up",
+                "protocol": "up",
+                "mtu": "1500"
+            }
+        ]
+    },
+    {
+        "device": "10.1.10.55",
+        "show version": [
+            {
+                "model": "vEOS-lab",
+                "hw_version": "",
+                "serial_number": "99F19AC289A51C29EDF860AE4EE803B5",
+                "sys_mac": "0800.27ed.82b2",
+                "image": "4.27.0F",
+                "total_memory": "2006592",
+                "free_memory": "917340"
+            }
+        ],
+        "show inventory": [
+            {
+                "port": "",
+                "name": "SwitchedBootstrap",
+                "sn": "",
+                "descr": "2",
+                "vid": ""
+            }
+        ],
+        "show ip interface brief": [
+            {
+                "interface": "Management1",
+                "ip": "10.1.10.55/24",
+                "status": "up",
+                "protocol": "up",
+                "mtu": "1500"
+            }
+        ]
+    }
+]

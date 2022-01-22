@@ -1,0 +1,9 @@
+---
+
+#Local Lab Devices
+sw01:
+  hostname: 10.1.10.216
+  groups: ['my_network']
+sw01:
+  hostname: 10.1.10.212
+  groups: ['my_network']

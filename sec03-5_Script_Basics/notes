@@ -1,0 +1,17 @@
+
+
+1. revision control - init
+git init
+2. virtual environment
+python3.8  -m venv vevn
+activate
+3. copy template
+4. write script
+# Open the text file containing the output of show version
+# Read in the output
+# Turn the output into a list so we can check each line
+# Search each line for the information we want
+# Save each piece of information to a variable
+# Display the information to our screen
+5. revision control - commit
+6. deactivate virtual environment

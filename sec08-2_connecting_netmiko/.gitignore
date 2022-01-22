@@ -1,0 +1,5 @@
+venv
+*.txt
+.ipynb_checkpoints
+python_script_template*
+*.ipynb

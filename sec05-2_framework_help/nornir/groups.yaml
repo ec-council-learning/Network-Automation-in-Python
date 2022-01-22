@@ -1,0 +1,9 @@
+---
+# IMPORTANT:  Putting credentials in a file is a bad practice and is only done here to ease getting started quickly
+# Look at the first_nornir_env_creds.py script for an alternative using environment variables
+
+# Local Lab Devices
+my_network:
+  platform: ios
+  username: cisco
+  password: cisco

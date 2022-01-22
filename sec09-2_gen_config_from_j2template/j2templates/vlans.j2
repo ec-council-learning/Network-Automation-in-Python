@@ -1,0 +1,12 @@
+! Config Snippet Generated {{ gen_time }}
+! Raw Data:
+! {{ data_list_of_dicts }}
+! --------------------------
+!
+{% for item in data_list_of_dicts %}
+{% for vlan_num, vlan_name in item.items() %}
+vlan {{ vlan_num }}
+ name {{ vlan_name }}
+{% endfor %}
+{% endfor %}
+!

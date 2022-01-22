@@ -1,0 +1,21 @@
+<mxfile type="device" compressed="false">
+    <diagram id="Page-1" name="Page-1">
+      <mxGraphModel dx="1360" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+        <root>
+          <mxCell id="0" />   
+          <mxCell id="1" parent="0" />
+        <object id="R1" label="R1">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="424" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="R2" label="R2">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="688" y="0" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="2d29e1a8b340a1ee6fe9e246aebb5737" label="DF">
+      <mxCell style="endArrow=none;" edge="1" parent="1" source="R1" target="R2">
+          <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </object></root>
+      </mxGraphModel>
+    </diagram></mxfile>

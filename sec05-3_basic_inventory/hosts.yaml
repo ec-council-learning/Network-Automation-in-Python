@@ -1,0 +1,11 @@
+---
+
+#Virtual vEOS Lab Devices
+sw01:
+  hostname: 10.1.10.54
+  username: "admin"
+  password: "arista"
+sw02:
+  hostname: 10.1.10.55
+  username: "admin"
+  password: "arista"

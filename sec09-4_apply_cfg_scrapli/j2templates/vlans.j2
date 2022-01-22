@@ -1,0 +1,12 @@
+! Config Snippet for device {{ data_dict['device'] }}
+! Generated {{ data_dict['timestamp'] }}
+! --------------------------
+!
+{% for item in data_dict['data_list_of_dicts'] -%}
+{% for vlan_num, vlan_name in item.items() -%}
+vlan {{ vlan_num }}
+ name {{ vlan_name }}
+!
+{% endfor -%}
+{% endfor -%}
+!

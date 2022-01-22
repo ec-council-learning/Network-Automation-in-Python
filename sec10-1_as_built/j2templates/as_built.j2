@@ -1,0 +1,21 @@
+===== Change Log and Final As Built for Vlan Change for Device {{ data_dict['device'] }}
+----- Change Date {{ data_dict['timestamp'] }}
+=====
+=====
+===== Vlans Prior to Change
+=====
+{{ data_dict['pre_vlan_cfg'] }}
+=====
+===== Configuration Sent to Device
+=====
+{% for line in data_dict['cfg_cmd_list'] -%}
+{{ line  }}
+{% endfor -%}
+=====
+===== Vlans After Change
+=====
+{{ data_dict['post_vlan_cfg'] }}
+=====
+===== Configuration Log
+=====
+{{ data_dict['cfg_response'] }}
